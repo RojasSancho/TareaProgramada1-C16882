@@ -12,6 +12,7 @@ class Envio {
     int peso;
 
     public:
+    virtual ~Envio();
     virtual float calculoEnvio() = 0;
 
     virtual int obtenerDistancia();
