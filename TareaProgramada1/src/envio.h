@@ -5,11 +5,18 @@ using namespace std;
 
 class Envio {
 
-//Privado
+    //Privado
 
-protected:
+    protected:
+    int distancia;
+    int peso;
 
-public:
+    public:
+    virtual float calculoEnvio() = 0;
+
+    virtual int obtenerDistancia();
+    
+    virtual int obtenerPeso();
 
 };
 
