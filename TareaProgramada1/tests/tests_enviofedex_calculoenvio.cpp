@@ -7,7 +7,7 @@ namespace
     
     {
         //
-        EnvioFedEX envioFedEX(600,5);
+        EnvioFedEX envioFedEX(501,10);
 
 
         //
