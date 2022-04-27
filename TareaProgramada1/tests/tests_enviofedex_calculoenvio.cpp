@@ -3,7 +3,7 @@
 
 namespace
 {
-    TEST(Test_EnvioFedex_CalculoEnvio, Test_DistanciaMayorA500YPesoMenorA10)
+    TEST(Test_EnvioFedex_CalculoEnvio, Test_DistanciaMayorA500YPesoMenorOIgualA10)
     
     {
         //
@@ -18,5 +18,39 @@ namespace
         EXPECT_FLOAT_EQ(esperada, actual);
 
     }
+
+    TEST(Test_EnvioFedex_CalculoEnvio, Test_DistanciaMayorA500YPesoMayorA10)
+    
+    {
+        //
+        EnvioFedEX envioFedEX(510,11);
+
+
+        //
+        float actual = envioFedEX.calculoEnvio();
+        float esperada = 60.00;
+
+        //
+        EXPECT_FLOAT_EQ(esperada, actual);
+
+    }
+
+    TEST(Test_EnvioFedex_CalculoEnvio, Test_DistanciaMenorOIgualA500YPesoMenorOIgualA10)
+    
+    {
+        //
+        EnvioFedEX envioFedEX(500,10);
+
+
+        //
+        float actual = envioFedEX.calculoEnvio();
+        float esperada = 35.00;
+
+        //
+        EXPECT_FLOAT_EQ(esperada, actual);
+
+    }
+
+
 
 }

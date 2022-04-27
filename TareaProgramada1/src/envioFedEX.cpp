@@ -10,15 +10,15 @@ EnvioFedEX::EnvioFedEX(int distancia, int peso) {
 
 float EnvioFedEX::calculoEnvio() {
 
-    float costoEnvio = 0;
+    float costoEnvio = 35.00;
     if(this->distancia > 500) {
 
-        costoEnvio = costoBase + 15.00;
+        costoEnvio = costoEnvio + 15.00;
     }
 
     if(this->peso > 10) {
 
-        costoEnvio = costoBase + 10.00;
+        costoEnvio = costoEnvio + 10.00;
     }
 
     return costoEnvio;
