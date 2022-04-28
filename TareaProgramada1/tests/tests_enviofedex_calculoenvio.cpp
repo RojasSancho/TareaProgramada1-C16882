@@ -51,6 +51,22 @@ namespace
 
     }
 
+    TEST(Test_EnvioFedex_CalculoEnvio, Test_DistanciaMenorOIgualA500YPesoMayorA10)
+    
+    {
+        //
+        EnvioFedEX envioFedEX(475,27);
+
+
+        //
+        float actual = envioFedEX.calculoEnvio();
+        float esperada = 45.00;
+
+        //
+        EXPECT_FLOAT_EQ(esperada, actual);
+
+    }
+
 
 
 }
