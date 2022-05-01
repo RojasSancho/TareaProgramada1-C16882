@@ -7,7 +7,7 @@ namespace
     
     {
         //
-        EnvioFedEX envioFedEX(501,10);
+        EnvioFedEX envioFedEX(650,8);
 
 
         //
@@ -23,7 +23,7 @@ namespace
     
     {
         //
-        EnvioFedEX envioFedEX(510,11);
+        EnvioFedEX envioFedEX(510,17);
 
 
         //
@@ -39,7 +39,7 @@ namespace
     
     {
         //
-        EnvioFedEX envioFedEX(500,10);
+        EnvioFedEX envioFedEX(370,4);
 
 
         //

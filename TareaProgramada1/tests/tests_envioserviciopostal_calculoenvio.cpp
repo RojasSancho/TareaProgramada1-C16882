@@ -3,7 +3,7 @@
 
 namespace
 {
-    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_1KgYPrimeraClase) {
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_De1KgYPrimeraClase) {
         //
         EnvioServicioPostal envioServicioPostal(450, 1, 1); 
         
@@ -15,7 +15,7 @@ namespace
         EXPECT_FLOAT_EQ(esperada, actual);
     }
 
-    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_2KgYSegundaClase) {
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_De2KgYSegundaClase) {
         //
         EnvioServicioPostal envioServicioPostal(450, 2, 2); 
         
@@ -27,7 +27,7 @@ namespace
         EXPECT_FLOAT_EQ(esperada, actual);
     }
 
-    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_3KgYTerceraClase) {
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_De3KgYTerceraClase) {
         //
         EnvioServicioPostal envioServicioPostal(450, 3, 3); 
         
@@ -39,7 +39,7 @@ namespace
         EXPECT_FLOAT_EQ(esperada, actual);
     }
 
-    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_4KgYPrimeraClase) {
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_De4KgYPrimeraClase) {
         //
         EnvioServicioPostal envioServicioPostal(450, 4, 1); 
         
@@ -51,7 +51,7 @@ namespace
         EXPECT_FLOAT_EQ(esperada, actual);
     }
 
-    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_5KgYSegundaClase) {
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_De5KgYSegundaClase) {
         //
         EnvioServicioPostal envioServicioPostal(450, 5, 2); 
         
@@ -63,7 +63,7 @@ namespace
         EXPECT_FLOAT_EQ(esperada, actual);
     }
 
-    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_6KgYTerceraClase) {
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_De6KgYTerceraClase) {
         //
         EnvioServicioPostal envioServicioPostal(450, 6, 3); 
         
@@ -75,7 +75,7 @@ namespace
         EXPECT_FLOAT_EQ(esperada, actual);
     }
 
-    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_9KgYPrimeraClase) {
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_De9KgYPrimeraClase) {
         //
         EnvioServicioPostal envioServicioPostal(450, 9, 1); 
         
@@ -87,7 +87,7 @@ namespace
         EXPECT_FLOAT_EQ(esperada, actual);
     }
 
-    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_10KgYSegundaClase) {
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_De10KgYSegundaClase) {
         //
         EnvioServicioPostal envioServicioPostal(450, 10, 2); 
         
@@ -99,7 +99,7 @@ namespace
         EXPECT_FLOAT_EQ(esperada, actual);
     }
 
-    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_11KgYTerceraClase) {
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_De11KgYTerceraClase) {
         //
         EnvioServicioPostal envioServicioPostal(450, 11, 3); 
         
