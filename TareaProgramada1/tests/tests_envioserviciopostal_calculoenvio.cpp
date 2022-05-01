@@ -3,7 +3,7 @@
 
 namespace
 {
-    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_De0A3KgYPrimeraClase) {
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_1KgYPrimeraClase) {
         //
         EnvioServicioPostal envioServicioPostal(450, 1, 1); 
         
@@ -15,9 +15,9 @@ namespace
         EXPECT_FLOAT_EQ(esperada, actual);
     }
 
-    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_De0A3KgYSegundaClase) {
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_2KgYSegundaClase) {
         //
-        EnvioServicioPostal envioServicioPostal(450, 1, 2); 
+        EnvioServicioPostal envioServicioPostal(450, 2, 2); 
         
         //
         float actual = envioServicioPostal.calculoEnvio();
@@ -27,9 +27,9 @@ namespace
         EXPECT_FLOAT_EQ(esperada, actual);
     }
 
-    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_De0A3KgYTerceraClase) {
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_3KgYTerceraClase) {
         //
-        EnvioServicioPostal envioServicioPostal(450, 1, 3); 
+        EnvioServicioPostal envioServicioPostal(450, 3, 3); 
         
         //
         float actual = envioServicioPostal.calculoEnvio();
@@ -39,9 +39,9 @@ namespace
         EXPECT_FLOAT_EQ(esperada, actual);
     }
 
-    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_De4A8KgYPrimeraClase) {
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_4KgYPrimeraClase) {
         //
-        EnvioServicioPostal envioServicioPostal(450, 7, 1); 
+        EnvioServicioPostal envioServicioPostal(450, 4, 1); 
         
         //
         float actual = envioServicioPostal.calculoEnvio();
@@ -50,4 +50,65 @@ namespace
         //
         EXPECT_FLOAT_EQ(esperada, actual);
     }
+
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_5KgYSegundaClase) {
+        //
+        EnvioServicioPostal envioServicioPostal(450, 5, 2); 
+        
+        //
+        float actual = envioServicioPostal.calculoEnvio();
+        float esperada = 23.85;
+
+        //
+        EXPECT_FLOAT_EQ(esperada, actual);
+    }
+
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_6KgYTerceraClase) {
+        //
+        EnvioServicioPostal envioServicioPostal(450, 6, 3); 
+        
+        //
+        float actual = envioServicioPostal.calculoEnvio();
+        float esperada = 5.4;
+
+        //
+        EXPECT_FLOAT_EQ(esperada, actual);
+    }
+
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_9KgYPrimeraClase) {
+        //
+        EnvioServicioPostal envioServicioPostal(450, 9, 1); 
+        
+        //
+        float actual = envioServicioPostal.calculoEnvio();
+        float esperada = 270.00;
+
+        //
+        EXPECT_FLOAT_EQ(esperada, actual);
+    }
+
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_10KgYSegundaClase) {
+        //
+        EnvioServicioPostal envioServicioPostal(450, 10, 2); 
+        
+        //
+        float actual = envioServicioPostal.calculoEnvio();
+        float esperada = 33.75;
+
+        //
+        EXPECT_FLOAT_EQ(esperada, actual);
+    }
+
+    TEST(Test_EnvioServicioPostal_CalculoEnvio, Test_11KgYTerceraClase) {
+        //
+        EnvioServicioPostal envioServicioPostal(450, 11, 3); 
+        
+        //
+        float actual = envioServicioPostal.calculoEnvio();
+        float esperada = 5.4;
+
+        //
+        EXPECT_FLOAT_EQ(esperada, actual);
+    }
 }
+
