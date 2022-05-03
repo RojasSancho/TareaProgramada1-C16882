@@ -10,23 +10,22 @@ int main() {
 
     vector<Envio *> envios;
 
-    EnvioFedEX* envioPorFedEX1 = new EnvioFedEX(550, 6);
+    EnvioFedEX* envioPorFedEX1 = new EnvioFedEX(550, 6); // Envio por FedEX de 550 km y con peso de 6 kg
     envios.push_back(envioPorFedEX1);
 
-    EnvioFedEX* envioPorFedEX2 = new EnvioFedEX(420, 27);
+    EnvioFedEX* envioPorFedEX2 = new EnvioFedEX(420, 27); // Envio por FedEX de 420 km y con peso de 27 kg
     envios.push_back(envioPorFedEX2);
 
-    EnvioServicioPostal* envioPorServicioPostal1 = new EnvioServicioPostal(470, 2, 1);
+    EnvioServicioPostal* envioPorServicioPostal1 = new EnvioServicioPostal(470, 2, 1); // Envio por Servicio Postal de primera clase de 470 km y con peso de 2 kg
     envios.push_back(envioPorServicioPostal1);
 
-    EnvioServicioPostal* envioPorServicioPostal2 = new EnvioServicioPostal(470, 6, 1);
+    EnvioServicioPostal* envioPorServicioPostal2 = new EnvioServicioPostal(470, 6, 1); // Envio por Servicio Postal de primera clase de 470 km y con peso de 6 kg
     envios.push_back(envioPorServicioPostal2);
 
-    EnvioServicioPostal* envioPorServicioPostal3 = new EnvioServicioPostal(470, 12, 1);
+    EnvioServicioPostal* envioPorServicioPostal3 = new EnvioServicioPostal(470, 12, 1); // Envio por Servicio Postal de primera clase de 470 km y con peso de 12 kg
     envios.push_back(envioPorServicioPostal3);
 
     double totalMontoEnvios = 0;
-
 
     for (Envio* envio : envios) {
 
