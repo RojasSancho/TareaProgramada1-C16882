@@ -34,32 +34,32 @@ float EnvioServicioPostal::calculoEnvio() {
         switch(this->tipoDeClase) {
 
             case 1: 
-                costoEnvio = this->distancia * 0.450;
+                costoEnvio = this->distancia * 0.450; //En primera clase
                 break;
             
             case 2:
-                costoEnvio = this->distancia * 0.0530;
+                costoEnvio = this->distancia * 0.0530; // En segunda clase
                 break;
 
             case 3:
-                costoEnvio = this->distancia * 0.0120;
+                costoEnvio = this->distancia * 0.0120; // En tercera clase
                 break;
         }
 
-    } else if (this->peso >= 9) {
+    } else if (this->peso >= 9) { // Caso de mas de 9 kg
 
         switch(this->tipoDeClase) {
 
             case 1: 
-                costoEnvio = this->distancia * 0.600;
+                costoEnvio = this->distancia * 0.600; // En primera clase
                 break;
             
             case 2:
-                costoEnvio = this->distancia * 0.0750;
+                costoEnvio = this->distancia * 0.0750; // En segunda clase
                 break;
 
             case 3:
-                costoEnvio = this->distancia * 0.0120;
+                costoEnvio = this->distancia * 0.0120; // En tercera clase
                 break;
         }
 
