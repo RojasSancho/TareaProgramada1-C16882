@@ -4,6 +4,8 @@ En el main se pueden encontrar varias creaciones de instancias de los diferentes
 
 COMPILAR Y EJECUTAR PROGRAMA:
 
+Se debe entrar a la carpeta TareaProgramada1
+
 Para compilar el programa y obtener la suma total de envios, ejecute:
 
 make
@@ -14,6 +16,8 @@ Para ejecutarlo utilice la siguiente instrucción instrucción:
 
 
 COMPILAR Y EJECUTAR LAS PRUEBAS UNITARIAS:
+
+Se debe entrar a la carpeta TareaProgramada1
 
 Para compilar las pruebas unitarias de las clases, ejecute:
 
